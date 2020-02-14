@@ -1,0 +1,40 @@
+address: shaoxin
+test: qqqqq234
+myinitializr:
+  dependencies:
+    - name: sdk-1
+      bom: spring-cloud
+      content:
+        - name: dac987 sdk starter
+          id: dac-sdk-starter
+          description: dac987 sdk starter
+          groupId: com.hikvision.com
+          artifactId: dac-sdk-starter
+          links:
+            - rel: guide
+              href: common https://com.hikvision.com/dac
+              description: dac sdk starter
+    - name: sdk-2
+      bom: spring-cloud
+      content:
+        - name: nms sdk starter
+          id: nms-sdk-starter
+          description: nms sdk starter
+          groupId: com.hikvision.com
+          artifactId: nms-sdk-starter
+          links:
+            - rel: guide
+              href: https://com.hikvision.com/nms
+              description: nms sdk starter
+    - name: sdk-3
+      bom: spring-cloud
+      content:        
+        - name: acs123 sdk starter
+          id: acs-sdk-starter
+          description: acs123 sdk starter
+          groupId: com.hikvision.com
+          artifactId: acs-sdk-starter
+          links:
+            - rel: guide
+              href: https://com.hikvision.com/acs
+              description: acs sdk starter
