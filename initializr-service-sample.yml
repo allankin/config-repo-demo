@@ -5,9 +5,9 @@ myinitializr:
     - name: sdk-1
       bom: spring-cloud
       content:
-        - name: dac987 sdk starter
+        - name: dac12345 sdk starter
           id: dac-sdk-starter
-          description: dac987 sdk starter
+          description: dac12345 sdk starter
           groupId: com.hikvision.com
           artifactId: dac-sdk-starter
           links:
